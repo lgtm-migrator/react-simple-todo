@@ -1,0 +1,55 @@
+$default-margin: 15px;
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-middle {
+  align-items: center;
+}
+
+.margin-all {
+  margin: 10px !important;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.pull-bottom {
+  @extend .fixed;
+  bottom: 0;
+}
+
+.pull-right {
+  @extend .fixed;
+  right: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.relative {
+  display: relative;
+}
+
+.margin-bottom {
+  margin-bottom: $default-margin;
+}
+
+.margin-top {
+  margin-top: $default-margin;
+}
+
+.margin-right {
+  margin-right: $default-margin;
+}
