@@ -46,7 +46,7 @@
     "webpack": "1.14.0",
     "webpack-dev-server": "1.16.2",
     "webpack-manifest-plugin": "1.1.0",
-    "whatwg-fetch": "1.0.0"
+    "whatwg-fetch": "3.4.1"
   },
   "dependencies": {
     "date-fns": "^1.22.0",
